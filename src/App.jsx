@@ -1,4 +1,4 @@
-import RealTime from "./firebaseComponenets/RealTimeDB";
+import Authntication from "./firebaseComponenets/Authentication";
 
 
 
@@ -6,7 +6,7 @@ import RealTime from "./firebaseComponenets/RealTimeDB";
 function App() {
   return(
     <div>
-     <RealTime/>
+     <Authntication/>
     </div>
   )
 }
